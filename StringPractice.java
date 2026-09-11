@@ -18,7 +18,7 @@ public class StringPractice {
     //BUT it doesn't fix it and then test it in
     //StringPracticeMain
     public String brokenEnd(String s){
-        return s.substring(0, 2) + (s.length() - 1) + s.substring(s.length() - 2);
+        return s.substring(0, 2) + (s.length()) + s.substring(s.length() - 1);
     }
 
     //This method should return first letter of
