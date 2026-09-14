@@ -1,5 +1,6 @@
 public class StringPracticeMain {
     public static void main(String[] args) {
-        brokenEnd("wow");
+        StringPractice s = new StringPractice();
+        s.brokenEnd("wow");
     }
 }
