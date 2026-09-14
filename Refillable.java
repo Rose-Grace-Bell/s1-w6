@@ -42,9 +42,8 @@ public class Refillable {
 	}
 
 	public double averageUse(){
-		if(myTotalUse >= 0){
+		if(myTotalUse >= 0)
   			return myTotalUse / (myUseUpCallCount * 1.0);
-		}
 		else{
 			return 0.0;
 		}
