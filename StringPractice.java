@@ -25,7 +25,6 @@ public class StringPractice {
     //the parameter, b and the last two letters of the parameter, b
     //concatenated --> Ex. b = BeReal --> returns --> Bal
     public String firstLetterLastTwo(String b){
-        //write this
-        return null;
+        return b.substring(0,1)+b.substring((b.length()-2));
     }
 }
